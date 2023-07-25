@@ -24,7 +24,7 @@ function renderPlaces(places) {
 
         let model = document.createElement('a-entity');
         model.setAttribute('gps-entity-place', `latitude: ${35.156437}; longitude: ${129.138580};`);
-        model.setAttribute('gltf-model', './assets/brachio/scene.gltf');
+        model.setAttribute('gltf-model', './assets/brachio.gltf');
         model.setAttribute('rotation', '0 15 0');
         model.setAttribute('animation-mixer', '');
         model.setAttribute('scale', '0.95 0.95 0.95');
