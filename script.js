@@ -27,7 +27,7 @@ function renderPlaces(places) {
         model.setAttribute('gltf-model', './assets/brachio.gltf');
         model.setAttribute('rotation', '0 15 0');
         model.setAttribute('animation-mixer', '');
-        model.setAttribute('scale', '0.95 0.95 0.95');
+        model.setAttribute('scale', '1.7 1.7 1.7');
 
         model.addEventListener('loaded', () => {
             window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'))
