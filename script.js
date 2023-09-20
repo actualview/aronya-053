@@ -8,8 +8,8 @@ function staticLoadPlaces() {
         {
             name: 'Brachio',
             location: {
-                lat: 35.152156,
-                lng: 129.137740,
+                lat: 35.153891,
+                lng: 129.138690,
             }
         },
     ];
@@ -23,7 +23,7 @@ function renderPlaces(places) {
         let longitude = place.location.lng;
 
         let model = document.createElement('a-entity');
-        model.setAttribute('gps-entity-place', `latitude: ${35.152156}; longitude: ${129.137740};`);
+        model.setAttribute('gps-entity-place', `latitude: ${35.153891}; longitude: ${129.138690};`);
         model.setAttribute('gltf-model', './assets/brachio.gltf');
         model.setAttribute('rotation', '0 15 0');
         model.setAttribute('animation-mixer', '');
